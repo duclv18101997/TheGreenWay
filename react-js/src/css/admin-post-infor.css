@@ -1,0 +1,15 @@
+.admin-post-wrapper {
+  height: 100%;
+  margin: 3% 5%;
+}
+
+.admin-post-wrapper .title {
+  font-size: 20px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.post-editor .cke_chrome {
+  margin-right: 5% !important;
+  margin-top: 4% !important;
+}

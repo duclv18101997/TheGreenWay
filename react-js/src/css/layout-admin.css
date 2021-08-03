@@ -1,0 +1,16 @@
+
+.admin-content-container {
+  height: calc(100vh - 81px);
+  display: flex;
+}
+
+.ant-menu {
+  height: 100%;
+}
+
+.component-container {
+  height: calc(100vh - 81px);
+  background-color: #fff;
+  width: 100%;
+  margin-left: 250px;
+}

@@ -1,0 +1,78 @@
+.edit-container {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('../../images/edit-2.jpg');
+    background-size: cover;
+    background-repeat: none;
+}
+
+.edit-form {
+    background-color: #ffffff;
+    height: 100%;
+    width: 80%;
+    border-radius: 10px;
+    display: flex;
+    margin: 10% 0% 5% 0%;
+}
+
+.edit-form-left {
+    width: 30%;
+    border-right: 1px solid #000;
+}
+
+.edit-form-left .button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.edit-form-left .avatar-uploader {
+    display: flex;
+    justify-content: center;
+}
+
+.edit-form-left .avatar-uploader .ant-upload {
+    height: 200px;
+    width: 200px;
+}
+
+.edit-form-left input {
+    background-color: #ffffff !important;
+}
+
+.user-avatar {
+    width: 100%;
+    height: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.user-avatar .image {
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+}
+
+.edit-form-right {
+    width: 70%;
+}
+
+.progress-bar {
+    display: none !important;
+    background-color: #ffffff !important;
+}
+
+.edit-button {
+    margin-left: 50%;
+    margin-bottom: 5%;
+}
+
+.user-information {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}

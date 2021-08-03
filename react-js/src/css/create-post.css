@@ -1,0 +1,38 @@
+.create-post-wrapper {
+  height: 100%;
+  margin: 3% 5%;
+}
+
+.create-post-wrapper .ant-form-item-label{
+  text-align: left !important;
+}
+
+.create-post-wrapper .title {
+  font-size: 20px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.admin-form-post-container {
+  width: 100%;
+  display: flex;
+}
+
+.post-image-container {
+  display: flex;
+}
+
+.post-image-container .post-image-avatar .avatar-uploader .ant-upload.ant-upload-select-picture-card {
+  height: 232px;
+  width: 232px;
+}
+
+.post-image-container .post-image-avatar .avatar-uploader .ant-upload.ant-upload-select-picture-card img{
+  height: 232px;
+  width: 232px;
+}
+
+.post-image-container .post-image-detail .avatar-uploader .ant-upload.ant-upload-select-picture-card img{
+  height: 129px;
+  width: 129px;
+}

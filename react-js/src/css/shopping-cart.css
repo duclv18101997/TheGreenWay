@@ -1,0 +1,123 @@
+.cart-wrapper {
+  height: 100%;
+  margin: 0 10%;
+}
+
+.payment-infor {
+  display: flex;
+  flex: 1;
+  margin-top: 150px;
+}
+
+.payment-infor .list-item-infor {
+  display: flex;
+  flex: 2;
+  width: 100%;
+  min-height: 680px;
+}
+
+.payment-infor .total-money {
+  display: flex;
+  justify-content: center;
+  flex: 1;
+  width: 100%;
+}
+
+.list-item-table {
+  width: 100%;
+  height: 100%;
+}
+
+.list-item-table .table-header tr {
+  width: 100%;
+  height: 64px;
+  background: #e6e6e6;
+}
+
+.list-item-table .table-body tr {
+  height: 150px;
+}
+
+.total-money .total-money-card {
+  background: #e6e6e6;
+  width: 90%;
+  height: 80%;
+}
+
+.total-money-card .text-bill {
+  font-size: 18px;
+  font-weight: bold;
+  margin: 5% 0 0 5%;
+}
+
+.total-money-card .text-total-money {
+  font-size: 18px;
+  margin: 5% 5% 0 5%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.total-money-card .text-total-money-disable {
+  font-size: 18px;
+  margin: 5% 5% 0 5%;
+  display: flex;
+  justify-content: space-between;
+  opacity: 0.3;
+}
+
+.payment-option {
+  display: flex;
+  flex-direction: column;
+  margin: 0 5% 0 5%;
+}
+
+.payment-option .show-option-payment {
+  height: 100px;
+}
+
+.payment-option .money-input {
+  display: flex;
+  justify-content: space-between;
+}
+
+.button-check-out {
+  background: #fed136;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 64px;
+  margin: 8% 5%;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.button-check-out:hover {
+  background: #f8d863;
+}
+
+.button-check-out span {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.shopping-cart-item {
+  min-width: 50px !important;
+  width: 70px !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.shopping-cart-item .number-product {
+  position: absolute;
+  margin: -10px 0 0 3px;
+  width: 20px;
+  height: 20px;
+  background: #fed136;
+  color: #000;
+  border-radius: 50%;
+}
+
+.shopping-cart-item .number-product p {
+  margin: -4px 0 0 6px;
+}

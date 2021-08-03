@@ -1,0 +1,26 @@
+.admin-product-wrapper {
+  height: 100%;
+  margin: 3% 5%;
+}
+
+.admin-product-wrapper .ant-form-item-label{
+  text-align: left ;
+}
+
+.admin-product-wrapper .title {
+  font-size: 20px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+/* .ant-modal {
+  width: 80% !important;
+} */
+.product-avatar-container .ant-upload.ant-upload-select-picture-card > .ant-upload img{
+  height: 129px;
+  width: 129px;
+}
+
+.product-editor .cke_chrome {
+  margin-right: 8% !important;
+}

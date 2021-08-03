@@ -1,0 +1,39 @@
+.home-page {
+    height: 100vh;
+    background-color: #ffffff;
+    background-image: url('../images/scott-webb-hDyO6rr3kqk-unsplash.jpg');
+    background-size: cover;
+    background-repeat: none;
+}
+
+.modal-profile {
+    width: 80% !important;
+}
+
+.modal-password {
+    width: 60% !important;
+}
+
+.home-page-header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-left {
+    width: 50%;
+    display: flex;
+    align-items: center;
+}
+
+.header-right {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-right: 5%;
+}
+
+.header-left p {
+    margin: 0% 5% 0% 1%;
+}

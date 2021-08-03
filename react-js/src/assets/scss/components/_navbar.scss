@@ -1,0 +1,109 @@
+// Styling for the navbar
+#mainNav {
+  background: #f8f8ff !important ;
+
+  opacity: 1;
+  height: 78px;
+  @media (max-width: 991px) {
+    padding: 0;
+  }
+  .navbar-container {
+    max-width: 100% !important;
+  }
+  .navbar-collapse {
+     background-color: #f8f8ff !important;
+  }
+  .navbar-toggler {
+    font-size: 12px;
+    right: 0;
+    padding: 13px;
+    text-transform: uppercase;
+    color: white;
+    border: 0;
+    background-color: green;
+    //@at-root heading-font;
+  }
+  .navbar-brand {
+    color: green;
+    //@include script-font;
+    &.active,
+    &:active,
+    &:focus,
+    &:hover {
+      color: darken(green, 10%);
+    }
+  }
+
+
+  .navbar-nav {
+    .nav-item {
+      .nav-link {
+        font-size: 90%;
+        font-weight: 600;
+        padding: 0.75em 0;
+        letter-spacing: 1px;
+        color: #000;
+        // @include heading-font;
+        &.active,
+        &:hover {
+          color: green;
+        }
+      }
+    }
+  }
+
+}
+
+@media (min-width: 992px) {
+  #mainNav {
+    padding-top: 25px;
+    padding-bottom: 25px;
+    -webkit-transition: padding-top 0.3s, padding-bottom 0.3s;
+    -moz-transition: padding-top 0.3s, padding-bottom 0.3s;
+    transition: padding-top 0.3s, padding-bottom 0.3s;
+    border: none;
+    background-color: transparent;
+    .navbar-brand {
+      font-size: 1.75em;
+      -webkit-transition: all 0.3s;
+      -moz-transition: all 0.3s;
+      transition: all 0.3s;
+    }
+    .navbar-nav {
+      .nav-item {
+        display: flex;
+        justify-content: center;
+        min-width: 150px !important;
+        .nav-link {
+          padding: 1.1em 1em !important;
+        }
+      }
+
+      .header-left {
+        display: flex;
+        align-items: center;
+      }
+
+      .user-name {
+        min-width: 200px !important;
+
+        .ant-dropdown-link {
+          display: flex;
+          align-items: center;
+          margin-left: 3%;
+          color: green;
+        }
+      }
+    }
+    &.navbar-shrink {
+      padding-top: 0;
+      padding-bottom: 0;
+      background-color: #e8f7ba;
+      .navbar-brand {
+        font-size: 1.25em;
+        padding: 12px 0;
+      }
+    }
+
+  }
+}

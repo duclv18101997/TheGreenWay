@@ -1,0 +1,192 @@
+.about-us {
+  height: 100vh;
+}
+
+.main-content {
+  width: 100%;
+  min-width: 400px;
+  min-height: 100vh;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  background: url("../images/about-us-1.jpg") no-repeat center center;
+  background-size: cover;
+}
+
+.main-introduce {
+  width: 100%;
+  text-align: right;
+  margin-right: 20%;
+}
+
+.introduce-title {
+  font-size: 4rem;
+  font-weight: bold;
+  color: #ffffff;
+}
+
+.content-introduce {
+  width: 41%;
+}
+
+.fade-image {
+  height: 350px;
+  width: 550px;
+}
+
+.our-mission {
+  margin-top: 70px;
+  margin-bottom: 70px;
+  min-width: 400px;
+  width: 100%;
+}
+
+.plant-office {
+  margin: 0 15%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 5%;
+}
+.counter-wrapper {
+  background-image: url("../images/about-us-9.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.counter-number-container {
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.counter-title {
+  color: #ffffff;
+}
+
+.counter-number {
+  font-size: 2rem;
+  font-weight: bold;
+  color: rgb(74, 183, 133);
+}
+
+.counter-image img {
+  width: 225px;
+  height: 225px;
+  border: 7px solid #ffffff !important;
+}
+
+.team-member-wrapper {
+  text-align: center;
+  background: #ffffff;
+}
+
+.member-heading {
+  padding-top: 5%;
+  color: #444;
+  font-size: 2rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  border-bottom: 2px solid #d1d402;
+  width: 30%;
+  margin: auto;
+  line-height: 80px;
+}
+
+.team-member-container {
+  max-width: 1200px;
+  margin: auto;
+  padding: 50px 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.sub-member {
+  margin: 10px;
+  padding: 20px;
+  width: 30%;
+  max-width: 30%;
+  box-sizing: border-box;
+  transition: 0.3s;
+  background: #ddd;
+}
+
+.sub-member:hover {
+  background: #faf0e6;
+}
+
+.sub-member .sub-member-image {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  border: 1px solid #e1e0de;
+}
+
+.member-name {
+  padding: 20px;
+  color: #8a3e07;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.member-position {
+  font-style: italic;
+  color: #000;
+  font-weight: bold;
+}
+
+.member-description {
+  margin: 20px 0;
+  text-align: justify;
+  font-weight: lighter;
+  line-height: 25px;
+  color: #4e4e4e;
+}
+
+.member-description .member-infor {
+  display: flex;
+  justify-content: center;
+}
+
+.member-description .member-infor p {
+  font-weight: bold;
+}
+
+.member-contact {
+  margin: 10px;
+}
+
+.member-contact a {
+  display: inline-block;
+  height: 20px;
+  width: 30px;
+  transition: 0.2s;
+}
+
+.member-contact a:hover {
+  transform: scale(1.3);
+}
+
+.member-contact a i {
+  color: blue;
+}
+
+@media screen and (max-width: 1100px) {
+  .sub-member {
+    width: 40%;
+    max-width: 45%;
+  }
+
+  .member-heading {
+    width: 90%;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .sub-member {
+    width: 90%;
+    max-width: 100%;
+  }
+}

@@ -1,0 +1,94 @@
+.payment-infor .customer-infor {
+  display: flex;
+  flex-direction: column;
+  flex: 2;
+  width: 100%;
+  min-height: 680px;
+}
+
+.customer-infor .confirm-title {
+  display: flex;
+  flex-direction: column;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.customer-infor .ant-form-item-label {
+  text-align: left;
+}
+
+.payment-infor .bill-infor-wrapper {
+  display: flex;
+  justify-content: center;
+  flex: 1;
+  width: 100%;
+}
+
+.bill-infor-wrapper .bill-infor-container {
+  background: #e6e6e6;
+  width: 90%;
+  height: 90vh;
+}
+
+.bill-infor-container .text-bill {
+  font-size: 18px;
+  font-weight: bold;
+  margin: 5% 0 0 5%;
+}
+
+.bill-infor-container .text-bill-detail-container {
+  max-height: 170px;
+  overflow: auto;
+}
+
+.bill-infor-container .text-bill-detail-title {
+  font-size: 18px;
+  margin: 5% 5% 0 5%;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid gray;
+  line-height: 2;
+}
+
+.bill-infor-container .text-bill-detail {
+  font-size: 18px;
+  margin: 5% 5% 0 5%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.bill-infor-container .text-bill-total-money {
+  font-size: 18px;
+  margin: 5% 5% 0 5%;
+  display: flex;
+  justify-content: space-between;
+  border-top: 1px solid gray;
+}
+
+
+.bill-infor-container .button-check-out {
+  background: #fed136;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 64px;
+  margin: 0% 5% 8% 5%;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.bill-infor-container .button-check-out:hover {
+  background: #f8d863;
+}
+
+.bill-infor-container .button-check-out span {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.change-shopping-cart {
+  margin: 2% 5%;
+  color: blue;
+  font-style: italic;
+  cursor: pointer;
+}

@@ -1,0 +1,12 @@
+.user-like {
+  height: 100%;
+  margin: 100px 0% 5% 0%;
+  background: #fff;
+}
+
+.like-product-wrapper {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  
+}

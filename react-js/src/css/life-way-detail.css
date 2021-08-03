@@ -1,0 +1,61 @@
+.article-wrapper {
+  height: 100%;
+  margin: 150px 15% 0 15%;
+  display: flex;
+  flex-direction: column;
+}
+
+.article-header {
+  height: 100%;
+}
+
+.article-header-title {
+  font-size: 22px;
+  font-weight: bold;
+  text-transform: uppercase
+}
+
+.article-header-time {
+  display: flex;
+  flex-direction: row;
+  margin: 1% 0;
+  font-weight: bold;
+}
+
+.article-header-image{
+  height: 100%;
+}
+
+.article-header-image img {
+  width: 60%;
+}
+
+.article-content {
+  margin-top: 5%;
+}
+
+.related-article-title{
+  font-size: 22px;
+  font-weight: bold;
+  margin: 3% 0;
+}
+
+.related-article {
+  display: flex;
+  flex-direction: row;
+  margin-top: 5%;
+}
+
+.related-article-sub-title {
+  margin-top: 300px;
+  font-size: 20px;
+  font-weight: bold;
+  margin-left: 2%;
+}
+
+.related-article-time {
+  display: flex;
+  flex-direction: row;
+  margin: 2% 2% 4% 2%;
+  font-weight: bold;
+}

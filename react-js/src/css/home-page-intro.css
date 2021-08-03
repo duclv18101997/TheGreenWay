@@ -1,0 +1,81 @@
+.home-intro-wrapper {
+  margin: 20px 0 50px 0;
+}
+
+.home-intro-title {
+  text-align: center;
+}
+
+.home-intro-title p {
+  font-size: 40px;
+  font-weight: bold;
+  margin: 20px 0 50px 0;
+}
+
+.home-intro {
+  height: 55vh;
+  display: flex;
+  justify-content: space-around;
+}
+
+.home-intro-plant {
+  display: flex;
+  height: 100%;
+  width: 45%;
+}
+
+.home-intro-reycle {
+  display: flex;
+  width: 45%;
+}
+
+.home-intro-btn {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  z-index: 1 !important;
+  width: 45%;
+  height: 55vh;
+  justify-content: center;
+  align-items: center;
+}
+
+.home-intro-plant-title {
+  font-size: 30px;
+  font-weight: bold;
+  font-style: italic;
+  max-width: 80%;
+}
+
+.home-intro-reycle .detail-btn {
+  font-size: 20px;
+  font-weight: bold;
+  width: 150px;
+  font-style: italic;
+  background-color: #fed136;
+  border-radius: 5px;
+  cursor: pointer;
+  text-align: center;
+}
+
+.home-intro-reycle .detail-btn p {
+  margin: 5px 10px;
+  color: #fff;
+}
+
+
+.home-intro-plant .detail-btn {
+  font-size: 20px;
+  width: 150px;
+  border-radius: 5px;
+  font-weight: bold;
+  font-style: italic;
+  background-color: #fed136;
+  cursor: pointer;
+  text-align: center;
+}
+
+.home-intro-plant .detail-btn p {
+  margin: 5px 10px;
+  color: #fff;
+}

@@ -1,0 +1,209 @@
+.product-containerr {
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  margin: 0 10%;
+}
+
+.product-detail {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex: 1;
+  padding-top: 150px;
+}
+
+.product-detail-bottom {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  height: auto;
+}
+
+.product-image-detail {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 50%;
+  max-width: 50%;
+}
+
+.product-infor {
+  flex: 1;
+  display: flex;
+  height: 100%;
+  flex-direction: column;
+  margin-left: 5%;
+}
+
+.product-infor .product-name {
+  font-size: 40px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+}
+
+.item-detail-price {
+  display: flex;
+  flex-direction: column;
+  margin: 3px 0;
+}
+
+.item-detail-coin {
+  display: flex;
+  align-items: center;
+}
+
+.item-detail-coin img {
+  width: 36px;
+  margin: 0 5px;
+}
+
+.item-detail-coin span {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 18px;
+  color: #6c738d;
+  padding-top: 5px;
+}
+
+.item-quantity {
+  display: flex;
+}
+
+.item-quantity span {
+  font-size: 20px;
+}
+
+
+.item-short-decription-span {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  height: 100px;
+}
+
+.add-to-cart {
+  background-color: #fed136;
+  border-radius: 5px;
+  cursor: pointer;
+  height: 48px;
+  width: 250px;
+  display: flex;
+  color: #fff;
+  font-size: 18px;
+  align-items: center;
+  justify-content: center;
+}
+
+.add-to-cart:hover {
+  background-color: #fff;
+  color: #000;
+  border: 2px solid #000;
+}
+
+.product-detail-description {
+  height: auto;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  margin: 5% 0;
+}
+
+.product-active-image {
+  height: 500px;
+  width: 100% !important;
+  padding: 5px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.product-small-image {
+  height: 130px;
+  width: 130px;
+  padding: 5px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.list-small-image {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.alice-carousel__stage-item {
+  height: 500px !important;
+  width: 100% !important;
+}
+
+/* .carousel .thumb {
+  height: 120px !important;
+  width: 120px !important;
+}
+
+.carousel .thumb img {
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 120px !important;
+  width: 120px !important;
+}
+
+.carousel .thumb:hover {
+  border: none !important;
+}
+
+.carousel .thumb.selected {
+  border: none !important;
+}
+
+.carousel .thumbs-wrapper {
+  margin: 20px 0px !important;
+  display: flex !important;
+  justify-content: space-between !important;
+} */
+
+.carousel-main img {
+  height: 500px !important;
+  width: 100% !important;
+  background-size: cover !important;
+  background-repeat: none !important;
+}
+
+.carousel-footer .box .carousel-thumb {
+  height: 150px !important;
+  width: 150px !important;
+  background-size: cover !important;
+  background-repeat: none !important;
+  opacity: 1 !important;
+}
+
+.carousel-footer .box {
+  display: flex !important;
+  justify-content: space-between;
+  width: 100%;
+  margin-top: 15px;
+}
+
+
+/* antd */
+.ant-carousel {
+  width: 448px !important;
+}
+
+.ant-carousel .slick-slide {
+  text-align: center;
+  height: 400px;
+  line-height: 400px;
+  width: 100%;
+  background: #364d79;
+  overflow: hidden;
+}
+
+.ant-carousel .slick-slide h3 {
+  color: #fff;
+}

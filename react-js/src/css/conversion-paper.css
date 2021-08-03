@@ -1,0 +1,9 @@
+.conversion-wrapper {
+  height: 100vh;
+  margin: 3% 2%;
+}
+
+.conversion-wrapper .title{
+  display: flex;
+  justify-content: space-between;
+}
